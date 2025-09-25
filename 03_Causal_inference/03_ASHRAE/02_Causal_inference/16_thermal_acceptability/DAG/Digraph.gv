@@ -1,0 +1,22 @@
+digraph {
+	ta -> tr
+	vel -> ta
+	rh -> ta
+	ta -> clo
+	ta -> thermal_sensation
+	vel -> tr
+	rh -> tr
+	tr -> clo
+	tr -> thermal_sensation
+	vel -> clo
+	vel -> thermal_sensation
+	rh -> clo
+	rh -> thermal_sensation
+	met -> thermal_sensation
+	clo -> thermal_sensation
+	vel -> thermal_acceptability
+	rh -> thermal_acceptability
+	met -> thermal_acceptability
+	clo -> thermal_acceptability
+	thermal_acceptability -> thermal_sensation
+}

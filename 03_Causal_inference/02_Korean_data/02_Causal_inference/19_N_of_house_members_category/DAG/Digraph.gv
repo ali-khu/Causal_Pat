@@ -1,0 +1,507 @@
+digraph {
+	HDD18_bins -> city_code
+	HDD18_bins -> housing_direction
+	HDD18_bins -> N_of_heating_room_winter
+	HDD18_bins -> N_of_heating_liv_room_winter
+	HDD18_bins -> N_of_heating_bathroom_winter
+	HDD18_bins -> N_of_ext_wall_win_group
+	HDD18_bins -> ratio_double_glazed_group
+	HDD18_bins -> N_double_glazed_win_group
+	HDD18_bins -> main_heat_facility
+	HDD18_bins -> main_heat_fuel
+	HDD18_bins -> keros_boil_heat_output
+	HDD18_bins -> keros_boil_heat_efficiency
+	HDD18_bins -> gas_boil_heat_output
+	HDD18_bins -> "gas boil_power consumption"
+	HDD18_bins -> "gas boiler_eff_rating"
+	HDD18_bins -> "gas boil_heat efficiency"
+	HDD18_bins -> elec_rate_check
+	HDD18_bins -> city_g_rate_check
+	HDD18_bins -> gas_avg_monthly_heat_cost_group
+	HDD18_bins -> gas_last_winter_heat_statisfaction
+	HDD18_bins -> insul_added_material
+	HDD18_bins -> improve_energy_method
+	HDD18_bins -> energy_savinng_prog
+	HDD18_bins -> total_kWh
+	city_code -> housing_direction
+	city_code -> N_of_heating_room_winter
+	city_code -> N_of_heating_liv_room_winter
+	city_code -> N_of_heating_bathroom_winter
+	city_code -> N_of_ext_wall_win_group
+	city_code -> ratio_double_glazed_group
+	city_code -> N_double_glazed_win_group
+	city_code -> main_heat_facility
+	city_code -> main_heat_fuel
+	city_code -> aux_heat_used
+	city_code -> keros_boil_heat_output
+	city_code -> keros_boil_heat_efficiency
+	city_code -> gas_boil_heat_output
+	city_code -> "gas boil_power consumption"
+	city_code -> "gas boiler_eff_rating"
+	city_code -> "gas boil_heat efficiency"
+	city_code -> elec_boil_power_eff_rating
+	city_code -> elec_rate_check
+	city_code -> city_g_rate_check
+	city_code -> why_not_check_city_el_rate
+	city_code -> gas_avg_monthly_heat_cost_group
+	city_code -> gas_last_winter_heat_statisfaction
+	city_code -> insuf_heat_due_to_cost
+	city_code -> insul_added_material
+	city_code -> improve_energy_method
+	city_code -> energy_savinng_prog
+	city_code -> total_kWh
+	housing_type -> res_floor_group
+	housing_type -> N_of_outer_walls
+	housing_type -> housing_direction
+	housing_type -> completion_year_group
+	housing_type -> res_area
+	housing_type -> N_of_heating_room_winter
+	housing_type -> N_of_heating_liv_room_winter
+	housing_type -> N_of_heating_bathroom_winter
+	housing_type -> N_of_ext_wall_win_group
+	housing_type -> ratio_double_glazed_group
+	housing_type -> N_double_glazed_win_group
+	housing_type -> h_occupancy_type
+	housing_type -> main_heat_facility
+	housing_type -> main_heat_fuel
+	housing_type -> aux_heat_used
+	housing_type -> "gas boil_heat efficiency"
+	housing_type -> cook_equip_used
+	housing_type -> renewable_installed
+	housing_type -> why_not_check_city_el_rate
+	housing_type -> gas_avg_monthly_heat_cost_group
+	housing_type -> gas_last_winter_heat_statisfaction
+	housing_type -> insul_added_material
+	housing_type -> improve_energy_method
+	housing_type -> energy_savinng_prog
+	N_of_house_members_category -> housing_type
+	gender -> housing_type
+	head_house_age_group -> housing_type
+	head_house_edu_group -> housing_type
+	head_house_occ_group -> housing_type
+	head_house_income_source_group -> housing_type
+	av_monthly_income_group -> housing_type
+	housing_type -> total_kWh
+	res_floor_group -> res_area
+	res_floor_group -> N_of_heating_room_winter
+	res_floor_group -> N_of_heating_liv_room_winter
+	res_floor_group -> N_of_heating_bathroom_winter
+	res_floor_group -> N_of_ext_wall_win_group
+	res_floor_group -> h_occupancy_type
+	res_floor_group -> main_heat_facility
+	res_floor_group -> main_heat_fuel
+	res_floor_group -> aux_heat_used
+	res_floor_group -> renewable_installed
+	res_floor_group -> gas_avg_monthly_heat_cost_group
+	res_floor_group -> gas_last_winter_heat_statisfaction
+	res_floor_group -> insul_added_material
+	res_floor_group -> energy_savinng_prog
+	head_house_edu_group -> res_floor_group
+	head_house_occ_group -> res_floor_group
+	head_house_income_source_group -> res_floor_group
+	annual_income_category -> res_floor_group
+	av_monthly_income_group -> res_floor_group
+	res_floor_group -> total_kWh
+	housing_direction -> N_of_outer_walls
+	completion_year_group -> N_of_outer_walls
+	N_of_outer_walls -> N_of_ext_wall_win_group
+	N_of_outer_walls -> ratio_double_glazed_group
+	N_of_outer_walls -> N_double_glazed_win_group
+	N_of_outer_walls -> main_heat_facility
+	N_of_outer_walls -> main_heat_fuel
+	N_of_outer_walls -> aux_heat_used
+	N_of_outer_walls -> gas_avg_monthly_heat_cost_group
+	N_of_outer_walls -> gas_last_winter_heat_statisfaction
+	N_of_outer_walls -> insul_added_material
+	N_of_outer_walls -> improve_energy_method
+	N_of_outer_walls -> total_kWh
+	housing_direction -> N_of_ext_wall_win_group
+	housing_direction -> N_double_glazed_win_group
+	housing_direction -> renewable_installed
+	housing_direction -> energy_savinng_prog
+	housing_direction -> total_kWh
+	res_area -> completion_year_group
+	completion_year_group -> N_of_heating_room_winter
+	completion_year_group -> N_of_heating_liv_room_winter
+	completion_year_group -> N_of_heating_bathroom_winter
+	completion_year_group -> N_of_ext_wall_win_group
+	completion_year_group -> ratio_double_glazed_group
+	completion_year_group -> N_double_glazed_win_group
+	completion_year_group -> h_occupancy_type
+	completion_year_group -> main_heat_facility
+	completion_year_group -> main_heat_fuel
+	completion_year_group -> aux_heat_used
+	completion_year_group -> keros_boil_heat_efficiency
+	completion_year_group -> gas_boil_heat_output
+	completion_year_group -> "gas boiler_eff_rating"
+	completion_year_group -> "gas boil_heat efficiency"
+	completion_year_group -> elec_boil_heat_output_lcal_h
+	completion_year_group -> elec_boil_power_eff_rating
+	completion_year_group -> cook_equip_used
+	completion_year_group -> elec_rate_check
+	completion_year_group -> city_g_rate_check
+	completion_year_group -> why_not_check_city_el_rate
+	completion_year_group -> gas_last_winter_heat_statisfaction
+	head_house_age_group -> completion_year_group
+	head_house_edu_group -> completion_year_group
+	head_house_occ_group -> completion_year_group
+	head_house_income_source_group -> completion_year_group
+	annual_income_category -> completion_year_group
+	av_monthly_income_group -> completion_year_group
+	completion_year_group -> total_kWh
+	res_area -> N_of_heating_room_winter
+	res_area -> N_of_heating_liv_room_winter
+	res_area -> N_of_heating_bathroom_winter
+	res_area -> N_of_ext_wall_win_group
+	res_area -> ratio_double_glazed_group
+	res_area -> N_double_glazed_win_group
+	res_area -> h_occupancy_type
+	res_area -> main_heat_facility
+	res_area -> main_heat_fuel
+	res_area -> keros_boil_heat_efficiency
+	res_area -> gas_boil_heat_output
+	res_area -> "gas boil_power consumption"
+	res_area -> "gas boiler_eff_rating"
+	res_area -> "gas boil_heat efficiency"
+	res_area -> cook_equip_used
+	res_area -> gas_avg_monthly_heat_cost_group
+	res_area -> gas_last_winter_heat_statisfaction
+	res_area -> energy_savinng_prog
+	N_of_house_members_category -> res_area
+	gender -> res_area
+	head_house_age_group -> res_area
+	head_house_edu_group -> res_area
+	head_house_occ_group -> res_area
+	head_house_income_source_group -> res_area
+	annual_income_category -> res_area
+	av_monthly_income_group -> res_area
+	res_area -> total_kWh
+	N_of_heating_room_winter -> N_of_heating_liv_room_winter
+	N_of_heating_room_winter -> N_of_heating_bathroom_winter
+	h_occupancy_type -> N_of_heating_room_winter
+	N_of_heating_room_winter -> main_heat_facility
+	N_of_heating_room_winter -> main_heat_fuel
+	N_of_heating_room_winter -> aux_heat_used
+	N_of_heating_room_winter -> gas_boil_heat_output
+	N_of_heating_room_winter -> "gas boiler_eff_rating"
+	N_of_heating_room_winter -> "gas boil_heat efficiency"
+	N_of_heating_room_winter -> elec_rate_check
+	N_of_heating_room_winter -> why_not_check_city_el_rate
+	N_of_heating_room_winter -> gas_last_winter_heat_statisfaction
+	N_of_house_members_category -> N_of_heating_room_winter
+	gender -> N_of_heating_room_winter
+	head_house_age_group -> N_of_heating_room_winter
+	head_house_edu_group -> N_of_heating_room_winter
+	head_house_occ_group -> N_of_heating_room_winter
+	head_house_income_source_group -> N_of_heating_room_winter
+	annual_income_category -> N_of_heating_room_winter
+	av_monthly_income_group -> N_of_heating_room_winter
+	N_of_heating_room_winter -> total_kWh
+	N_of_ext_wall_win_group -> N_of_heating_liv_room_winter
+	ratio_double_glazed_group -> N_of_heating_liv_room_winter
+	N_double_glazed_win_group -> N_of_heating_liv_room_winter
+	h_occupancy_type -> N_of_heating_liv_room_winter
+	N_of_heating_liv_room_winter -> main_heat_facility
+	N_of_heating_liv_room_winter -> main_heat_fuel
+	N_of_heating_liv_room_winter -> aux_heat_used
+	N_of_heating_liv_room_winter -> elec_rate_check
+	N_of_heating_liv_room_winter -> why_not_check_city_el_rate
+	N_of_heating_liv_room_winter -> gas_last_winter_heat_statisfaction
+	N_of_heating_liv_room_winter -> insul_added_material
+	N_of_house_members_category -> N_of_heating_liv_room_winter
+	gender -> N_of_heating_liv_room_winter
+	head_house_age_group -> N_of_heating_liv_room_winter
+	head_house_edu_group -> N_of_heating_liv_room_winter
+	head_house_occ_group -> N_of_heating_liv_room_winter
+	head_house_income_source_group -> N_of_heating_liv_room_winter
+	av_monthly_income_group -> N_of_heating_liv_room_winter
+	N_of_heating_liv_room_winter -> total_kWh
+	N_of_ext_wall_win_group -> N_of_heating_bathroom_winter
+	ratio_double_glazed_group -> N_of_heating_bathroom_winter
+	N_double_glazed_win_group -> N_of_heating_bathroom_winter
+	N_of_heating_bathroom_winter -> main_heat_facility
+	N_of_heating_bathroom_winter -> main_heat_fuel
+	N_of_heating_bathroom_winter -> gas_boil_heat_output
+	N_of_heating_bathroom_winter -> "gas boiler_eff_rating"
+	N_of_heating_bathroom_winter -> "gas boil_heat efficiency"
+	N_of_heating_bathroom_winter -> elec_boil_power_eff_rating
+	N_of_heating_bathroom_winter -> why_not_check_city_el_rate
+	N_of_heating_bathroom_winter -> why_not_check_city_g_rate
+	N_of_heating_bathroom_winter -> insul_added_material
+	N_of_heating_bathroom_winter -> improve_energy_method
+	gender -> N_of_heating_bathroom_winter
+	head_house_age_group -> N_of_heating_bathroom_winter
+	head_house_edu_group -> N_of_heating_bathroom_winter
+	head_house_occ_group -> N_of_heating_bathroom_winter
+	head_house_income_source_group -> N_of_heating_bathroom_winter
+	annual_income_category -> N_of_heating_bathroom_winter
+	av_monthly_income_group -> N_of_heating_bathroom_winter
+	N_of_heating_bathroom_winter -> total_kWh
+	N_of_ext_wall_win_group -> ratio_double_glazed_group
+	N_of_ext_wall_win_group -> N_double_glazed_win_group
+	N_of_ext_wall_win_group -> main_heat_facility
+	N_of_ext_wall_win_group -> main_heat_fuel
+	N_of_ext_wall_win_group -> keros_boil_heat_output
+	N_of_ext_wall_win_group -> gas_boil_heat_output
+	N_of_ext_wall_win_group -> gas_last_winter_heat_statisfaction
+	N_of_ext_wall_win_group -> insul_added_material
+	gender -> N_of_ext_wall_win_group
+	head_house_age_group -> N_of_ext_wall_win_group
+	head_house_edu_group -> N_of_ext_wall_win_group
+	head_house_occ_group -> N_of_ext_wall_win_group
+	head_house_income_source_group -> N_of_ext_wall_win_group
+	av_monthly_income_group -> N_of_ext_wall_win_group
+	N_of_ext_wall_win_group -> total_kWh
+	N_double_glazed_win_group -> ratio_double_glazed_group
+	h_occupancy_type -> ratio_double_glazed_group
+	ratio_double_glazed_group -> main_heat_facility
+	ratio_double_glazed_group -> main_heat_fuel
+	ratio_double_glazed_group -> aux_heat_used
+	ratio_double_glazed_group -> elec_rate_check
+	ratio_double_glazed_group -> city_g_rate_check
+	ratio_double_glazed_group -> why_not_check_city_el_rate
+	ratio_double_glazed_group -> why_not_check_city_g_rate
+	ratio_double_glazed_group -> gas_avg_monthly_heat_cost_group
+	ratio_double_glazed_group -> gas_last_winter_heat_statisfaction
+	ratio_double_glazed_group -> insuf_heat_due_to_cost
+	ratio_double_glazed_group -> insul_added_material
+	ratio_double_glazed_group -> improve_energy_method
+	head_house_edu_group -> ratio_double_glazed_group
+	head_house_occ_group -> ratio_double_glazed_group
+	head_house_income_source_group -> ratio_double_glazed_group
+	av_monthly_income_group -> ratio_double_glazed_group
+	ratio_double_glazed_group -> total_kWh
+	h_occupancy_type -> N_double_glazed_win_group
+	N_double_glazed_win_group -> main_heat_facility
+	N_double_glazed_win_group -> main_heat_fuel
+	N_double_glazed_win_group -> aux_heat_used
+	N_double_glazed_win_group -> gas_avg_monthly_heat_cost_group
+	N_double_glazed_win_group -> gas_last_winter_heat_statisfaction
+	head_house_edu_group -> N_double_glazed_win_group
+	head_house_occ_group -> N_double_glazed_win_group
+	av_monthly_income_group -> N_double_glazed_win_group
+	N_double_glazed_win_group -> total_kWh
+	h_occupancy_type -> main_heat_facility
+	h_occupancy_type -> main_heat_fuel
+	h_occupancy_type -> aux_heat_used
+	h_occupancy_type -> gas_boil_heat_output
+	h_occupancy_type -> "gas boiler_eff_rating"
+	h_occupancy_type -> cook_equip_used
+	h_occupancy_type -> elec_rate_check
+	h_occupancy_type -> city_g_rate_check
+	h_occupancy_type -> why_not_check_city_el_rate
+	h_occupancy_type -> why_not_check_city_g_rate
+	h_occupancy_type -> energy_savinng_prog
+	N_of_house_members_category -> h_occupancy_type
+	head_house_age_group -> h_occupancy_type
+	head_house_edu_group -> h_occupancy_type
+	head_house_occ_group -> h_occupancy_type
+	head_house_income_source_group -> h_occupancy_type
+	av_monthly_income_group -> h_occupancy_type
+	main_heat_facility -> main_heat_fuel
+	main_heat_facility -> aux_heat_used
+	main_heat_facility -> gas_boil_heat_output
+	main_heat_facility -> elec_boil_power_eff_rating
+	main_heat_facility -> cook_equip_used
+	main_heat_facility -> elec_rate_check
+	main_heat_facility -> city_g_rate_check
+	main_heat_facility -> why_not_check_city_el_rate
+	main_heat_facility -> why_not_check_city_g_rate
+	main_heat_facility -> gas_avg_monthly_heat_cost_group
+	main_heat_facility -> gas_last_winter_heat_statisfaction
+	main_heat_facility -> insul_added_material
+	main_heat_facility -> energy_savinng_prog
+	N_of_house_members_category -> main_heat_facility
+	gender -> main_heat_facility
+	head_house_age_group -> main_heat_facility
+	head_house_edu_group -> main_heat_facility
+	head_house_occ_group -> main_heat_facility
+	head_house_income_source_group -> main_heat_facility
+	house_member_pregnant -> main_heat_facility
+	av_monthly_income_group -> main_heat_facility
+	main_heat_facility -> total_kWh
+	main_heat_fuel -> aux_heat_used
+	main_heat_fuel -> city_g_rate_check
+	main_heat_fuel -> why_not_check_city_el_rate
+	main_heat_fuel -> why_not_check_city_g_rate
+	main_heat_fuel -> gas_avg_monthly_heat_cost_group
+	main_heat_fuel -> gas_last_winter_heat_statisfaction
+	main_heat_fuel -> energy_savinng_prog
+	N_of_house_members_category -> main_heat_fuel
+	gender -> main_heat_fuel
+	head_house_age_group -> main_heat_fuel
+	head_house_edu_group -> main_heat_fuel
+	head_house_occ_group -> main_heat_fuel
+	head_house_income_source_group -> main_heat_fuel
+	av_monthly_income_group -> main_heat_fuel
+	main_heat_fuel -> total_kWh
+	aux_heat_used -> keros_boil_heat_efficiency
+	aux_heat_used -> city_g_rate_check
+	aux_heat_used -> gas_last_winter_heat_statisfaction
+	N_of_house_members_category -> aux_heat_used
+	gender -> aux_heat_used
+	head_house_age_group -> aux_heat_used
+	head_house_edu_group -> aux_heat_used
+	head_house_occ_group -> aux_heat_used
+	head_house_income_source_group -> aux_heat_used
+	house_member_pregnant -> aux_heat_used
+	av_monthly_income_group -> aux_heat_used
+	keros_boil_heat_output -> keros_boil_heat_efficiency
+	keros_boil_heat_efficiency -> total_kWh
+	gas_boil_heat_output -> "gas boil_power consumption"
+	gas_boil_heat_output -> "gas boiler_eff_rating"
+	gas_boil_heat_output -> "gas boil_heat efficiency"
+	gas_boil_heat_output -> city_g_rate_check
+	gas_boil_heat_output -> insuf_heat_due_to_cost
+	gas_boil_heat_output -> energy_savinng_prog
+	gender -> gas_boil_heat_output
+	head_house_edu_group -> gas_boil_heat_output
+	head_house_occ_group -> gas_boil_heat_output
+	head_house_income_source_group -> gas_boil_heat_output
+	av_monthly_income_group -> gas_boil_heat_output
+	"gas boil_power consumption" -> "gas boiler_eff_rating"
+	"gas boil_power consumption" -> city_g_rate_check
+	head_house_edu_group -> "gas boil_power consumption"
+	head_house_occ_group -> "gas boil_power consumption"
+	av_monthly_income_group -> "gas boil_power consumption"
+	"gas boil_power consumption" -> total_kWh
+	"gas boil_power consumption" -> "gas boiler_eff_rating"
+	"gas boil_power consumption" -> city_g_rate_check
+	head_house_edu_group -> "gas boil_power consumption"
+	head_house_occ_group -> "gas boil_power consumption"
+	av_monthly_income_group -> "gas boil_power consumption"
+	"gas boil_power consumption" -> total_kWh
+	"gas boiler_eff_rating" -> "gas boil_heat efficiency"
+	"gas boiler_eff_rating" -> elec_rate_check
+	"gas boiler_eff_rating" -> city_g_rate_check
+	"gas boiler_eff_rating" -> gas_last_winter_heat_statisfaction
+	"gas boiler_eff_rating" -> improve_energy_method
+	gender -> "gas boiler_eff_rating"
+	head_house_age_group -> "gas boiler_eff_rating"
+	head_house_edu_group -> "gas boiler_eff_rating"
+	head_house_occ_group -> "gas boiler_eff_rating"
+	head_house_income_source_group -> "gas boiler_eff_rating"
+	annual_income_category -> "gas boiler_eff_rating"
+	av_monthly_income_group -> "gas boiler_eff_rating"
+	"gas boiler_eff_rating" -> total_kWh
+	"gas boil_heat efficiency" -> city_g_rate_check
+	"gas boil_heat efficiency" -> gas_last_winter_heat_statisfaction
+	"gas boil_heat efficiency" -> insuf_heat_due_to_cost
+	head_house_edu_group -> "gas boil_heat efficiency"
+	head_house_occ_group -> "gas boil_heat efficiency"
+	head_house_income_source_group -> "gas boil_heat efficiency"
+	annual_income_category -> "gas boil_heat efficiency"
+	av_monthly_income_group -> "gas boil_heat efficiency"
+	"gas boil_heat efficiency" -> total_kWh
+	elec_boil_heat_output_lcal_h -> elec_rate_check
+	av_monthly_income_group -> elec_boil_heat_output_lcal_h
+	elec_boil_power_consumption -> elec_boil_heat_efficiency
+	elec_boil_power_consumption -> why_not_check_city_el_rate
+	elec_boil_power_eff_rating -> elec_boil_heat_efficiency
+	elec_boil_power_eff_rating -> gas_avg_monthly_heat_cost_group
+	elec_boil_power_eff_rating -> improve_energy_method
+	head_house_edu_group -> elec_boil_power_eff_rating
+	elec_boil_power_eff_rating -> total_kWh
+	elec_boil_heat_efficiency -> total_kWh
+	cook_equip_used -> renewable_installed
+	cook_equip_used -> gas_last_winter_heat_statisfaction
+	gender -> cook_equip_used
+	head_house_age_group -> cook_equip_used
+	head_house_occ_group -> cook_equip_used
+	head_house_income_source_group -> cook_equip_used
+	annual_income_category -> cook_equip_used
+	av_monthly_income_group -> cook_equip_used
+	cook_equip_used -> total_kWh
+	renewable_installed -> gas_avg_monthly_heat_cost_group
+	renewable_installed -> energy_savinng_prog
+	elec_rate_check -> city_g_rate_check
+	elec_rate_check -> why_not_check_city_g_rate
+	elec_rate_check -> improve_energy_method
+	elec_rate_check -> energy_savinng_prog
+	gender -> elec_rate_check
+	head_house_edu_group -> elec_rate_check
+	head_house_occ_group -> elec_rate_check
+	head_house_income_source_group -> elec_rate_check
+	av_monthly_income_group -> elec_rate_check
+	city_g_rate_check -> insul_added_material
+	city_g_rate_check -> improve_energy_method
+	head_house_edu_group -> city_g_rate_check
+	av_monthly_income_group -> city_g_rate_check
+	why_not_check_city_el_rate -> why_not_check_city_g_rate
+	why_not_check_city_el_rate -> gas_last_winter_heat_statisfaction
+	gender -> why_not_check_city_el_rate
+	head_house_age_group -> why_not_check_city_el_rate
+	head_house_edu_group -> why_not_check_city_el_rate
+	head_house_occ_group -> why_not_check_city_el_rate
+	head_house_income_source_group -> why_not_check_city_el_rate
+	av_monthly_income_group -> why_not_check_city_el_rate
+	why_not_check_city_el_rate -> total_kWh
+	why_not_check_city_g_rate -> improve_energy_method
+	head_house_age_group -> why_not_check_city_g_rate
+	head_house_occ_group -> why_not_check_city_g_rate
+	head_house_income_source_group -> why_not_check_city_g_rate
+	house_member_pregnant -> why_not_check_city_g_rate
+	av_monthly_income_group -> why_not_check_city_g_rate
+	gas_last_winter_heat_statisfaction -> gas_avg_monthly_heat_cost_group
+	insul_added_material -> gas_avg_monthly_heat_cost_group
+	improve_energy_method -> gas_avg_monthly_heat_cost_group
+	head_house_age_group -> gas_avg_monthly_heat_cost_group
+	head_house_occ_group -> gas_avg_monthly_heat_cost_group
+	head_house_income_source_group -> gas_avg_monthly_heat_cost_group
+	gas_avg_monthly_heat_cost_group -> total_kWh
+	insul_added_material -> gas_last_winter_heat_statisfaction
+	improve_energy_method -> gas_last_winter_heat_statisfaction
+	gender -> gas_last_winter_heat_statisfaction
+	head_house_age_group -> gas_last_winter_heat_statisfaction
+	head_house_edu_group -> gas_last_winter_heat_statisfaction
+	head_house_occ_group -> gas_last_winter_heat_statisfaction
+	head_house_income_source_group -> gas_last_winter_heat_statisfaction
+	av_monthly_income_group -> gas_last_winter_heat_statisfaction
+	energy_savinng_prog -> insul_added_material
+	gender -> insul_added_material
+	head_house_age_group -> insul_added_material
+	head_house_edu_group -> insul_added_material
+	head_house_occ_group -> insul_added_material
+	head_house_income_source_group -> insul_added_material
+	house_member_pregnant -> insul_added_material
+	av_monthly_income_group -> insul_added_material
+	insul_added_material -> total_kWh
+	energy_savinng_prog -> improve_energy_method
+	head_house_edu_group -> improve_energy_method
+	head_house_occ_group -> improve_energy_method
+	head_house_income_source_group -> improve_energy_method
+	av_monthly_income_group -> improve_energy_method
+	head_house_age_group -> energy_savinng_prog
+	head_house_edu_group -> energy_savinng_prog
+	av_monthly_income_group -> energy_savinng_prog
+	gender -> N_of_house_members_category
+	head_house_age_group -> N_of_house_members_category
+	head_house_edu_group -> N_of_house_members_category
+	head_house_occ_group -> N_of_house_members_category
+	head_house_income_source_group -> N_of_house_members_category
+	av_monthly_income_group -> N_of_house_members_category
+	N_of_house_members_category -> total_kWh
+	gender -> head_house_edu_group
+	gender -> head_house_occ_group
+	gender -> head_house_income_source_group
+	gender -> annual_income_category
+	gender -> av_monthly_income_group
+	head_house_age_group -> head_house_edu_group
+	head_house_age_group -> head_house_occ_group
+	head_house_age_group -> head_house_income_source_group
+	head_house_age_group -> av_monthly_income_group
+	head_house_age_group -> total_kWh
+	head_house_edu_group -> head_house_occ_group
+	head_house_edu_group -> head_house_income_source_group
+	head_house_edu_group -> annual_income_category
+	head_house_edu_group -> av_monthly_income_group
+	head_house_edu_group -> total_kWh
+	head_house_occ_group -> head_house_income_source_group
+	head_house_occ_group -> av_monthly_income_group
+	head_house_occ_group -> total_kWh
+	head_house_income_source_group -> av_monthly_income_group
+	head_house_income_source_group -> total_kWh
+	av_monthly_income_group -> annual_income_category
+	annual_income_category -> total_kWh
+	av_monthly_income_group -> total_kWh
+}
